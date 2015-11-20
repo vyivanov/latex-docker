@@ -14,4 +14,3 @@ RUN apt-get -y update && apt-get -y install \
 WORKDIR /opt/markup
 
 ENTRYPOINT ["make"]
-
